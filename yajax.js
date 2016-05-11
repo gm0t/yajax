@@ -1,7 +1,7 @@
 /**
  * yayax (c) Mikhail Bogdanov 2015
  * based on https://github.com/radiosilence/xr
- * URL: https://github.com/radiosilence/xr
+ * URL: https://github.com/gm0t/yajax
  * License: MIT
  */
 
