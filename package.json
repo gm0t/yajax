@@ -1,0 +1,35 @@
+{
+  "author": "Mikhail Bogdanov",
+  "bugs": {
+    "url": "https://github.com/gm0t/yaajax/issues"
+  },
+  "dependencies": {},
+  "description": "Promise based simple wrapper around XMLHttpRequest",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "b716f5ef54ed6cff4eeb6764cb4869baeeca4dc4",
+    "tarball": "http://registry.npmjs.org/yajax/-/yajax-1.0.2.tgz"
+  },
+  "homepage": "https://github.com/gm0t/yaajax#readme",
+  "keywords": [
+    "ajax",
+    "request",
+    "xmlhttprequest"
+  ],
+  "license": "MIT",
+  "main": "yajax",
+  "maintainers": [
+    "gm0t <admin@gm0t.ru>"
+  ],
+  "name": "yajax",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gm0t/yaajax.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}
