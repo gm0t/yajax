@@ -107,7 +107,13 @@ function yajax(args) {
         fn(xhr, opts);
       });
 
-      var data = xhr.responseText || null;
+      var data;
+      if (!xhr.responseType || xhr.responseType === "text") {
+        data = xhr.responseText;
+      } else {
+        data = xhr.response;
+      }
+
       if (data && !opts.raw) {
         data = opts.responseDecoder(data);
       }
