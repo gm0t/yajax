@@ -147,6 +147,10 @@ function yajax(args) {
       return failed();
     }
 
+    if (opts.responseType) {
+        xhr.responseType = opts.responseType;
+    }
+
     xhr.send(data);
   });
 
