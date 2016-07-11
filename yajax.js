@@ -138,6 +138,10 @@ function yajax(args) {
       }
     }
 
+    if (opts.timeout !== void 0) {
+        xhr.timeout = opts.timeout;
+    }
+
     // onSend interceptors
     (interceptors.send || []).forEach(function onSendInterceptor(fn) {
       fn(xhr, opts);
