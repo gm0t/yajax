@@ -115,7 +115,11 @@ function yajax(args) {
       }
 
       if (data && !opts.raw) {
-        data = opts.responseDecoder(data);
+        try {
+          data = opts.responseDecoder(data);
+        } catch (e) {
+          return failed(e);
+        }
       }
       resolve(data, xhr);
     });
